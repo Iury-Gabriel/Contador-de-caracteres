@@ -102,7 +102,7 @@ footer div a:hover {
     }
 
     .area-text textarea {
-        height: 400px; /* Ajuste a altura conforme necessário para telas menores */
+        height: 400px;
         width: 320px;
     }
 }
@@ -117,7 +117,7 @@ footer div a:hover {
         width: 700px;
     }
     .area-text textarea {
-        height: 400px; /* Ajuste a altura conforme necessário para telas menores */
+        height: 400px;
         width: 650px;
     }
 
