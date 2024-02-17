@@ -1,0 +1,124 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container {
+    background-color: #8CB9BD;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: #FEFBF6;
+}
+
+.area {
+    margin-bottom: 35px;
+    width: 1152px;
+    height: 800px;
+}
+
+.area-text {
+    background-color: #FEFBF6;
+    padding: 15px;
+    height: 525px;
+}
+
+.area-text p {
+    font-size: 20px;
+}
+
+.area-text textarea {
+    width: 1100px;
+    height: 400px;
+    resize: none;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #8CB9BD;
+    border-radius: 5px;
+    outline: none;
+}
+
+.area-text textarea:focus {
+    border: 2px solid #ECB159;
+}
+
+.infos {
+    display: flex;
+    gap: 20px;
+}
+
+footer {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer div {
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+footer div a {
+    text-decoration: none;
+    color: #B67352;
+}
+
+footer div a:hover {
+    opacity: 0.5;
+    cursor: pointer;
+
+}
+
+
+@media (max-width: 750px) {
+    .container {
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+    }
+    .area {
+        width: 370px;
+    }
+    h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .area-text p {
+        font-size: 17px;
+    }
+
+    .area-text textarea {
+        height: 400px; /* Ajuste a altura conforme necessário para telas menores */
+        width: 320px;
+    }
+}
+
+@media (min-width: 750px) and (max-width: 1200px) {
+    .container {
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+    }
+    .area {
+        width: 700px;
+    }
+    .area-text textarea {
+        height: 400px; /* Ajuste a altura conforme necessário para telas menores */
+        width: 650px;
+    }
+
+}
